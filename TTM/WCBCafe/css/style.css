@@ -108,3 +108,16 @@ img {
 .button:hover {
     background: rgb(0, 144, 170);   /* #0090aa */
 }
+
+/* フッター
+--------------------------------------- */
+footer {
+    background: rgb(68, 51, 34);   /* #432 */
+    text-align: center;
+    padding: 26px 0;
+}
+footer p {
+    color: rgb(255, 255, 255);    /* #fff */
+    font-size: 0.875rem;
+}
+
