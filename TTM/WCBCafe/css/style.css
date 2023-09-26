@@ -23,6 +23,8 @@ img {
     background-position: center top;
 }
 
+/* homeページ
+--------------------------------------- */
 #home {
     background-image: url(../images/main-bg.jpg);
     min-height: 100vh;
@@ -31,6 +33,20 @@ img {
     text-transform: none;
 }
 
+/* newsページ
+--------------------------------------- */
+#news {
+    background-image: url(../images/news-bg.jpg);
+    height: 270px;
+    margin-bottom: 40px;
+}
+#news .page-title {
+    text-align: center;
+}
+
+/* 共通部分
+--------------------------------------- */
+/* コンテンツ最大表示幅 */
 .wrapper {
     max-width: 1100px;
     margin: 0 auto;
