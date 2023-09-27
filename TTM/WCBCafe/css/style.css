@@ -140,6 +140,7 @@ article {
 }
 .post-date span {
     font-size: 1rem;
+    /* 日付の年の上に水平線を入れる指定 */
     border-top: 1px rgba(255, 255, 255, .5) solid;
     padding-top: 6px;
     display: block;
