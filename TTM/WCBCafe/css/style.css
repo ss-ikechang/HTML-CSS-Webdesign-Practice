@@ -155,6 +155,13 @@ article {
 .post-cat {
     margin-left: 120px;
 }
+article img {
+    margin-bottom: 20px;
+}
+article p {
+    /* 段落ごとに１行（root のフォントサイズを 1rem ）改行 */
+    margin-bottom: 1rem;     
+}
 
 /* サイドバー */
 aside {
