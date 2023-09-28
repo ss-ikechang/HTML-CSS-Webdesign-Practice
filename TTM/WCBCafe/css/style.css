@@ -168,6 +168,31 @@ article p {
 aside {
     width: 22%;
 }
+.sub-title {
+    font-size: 1.375rem;
+    padding: 0 8px 8px;
+    border-bottom: 2px #0bd solid;
+    font-weight: normal;
+}
+.sub-menu {
+    margin-bottom: 60px;
+    list-style-type: none;  /* リストの丸いマークを非表示にする */
+}
+.sub-menu li {
+    border-bottom: 1px #ddd solid;
+}
+.sub-menu a {
+    color: rgb(68, 51, 34);     /* #432 rgb(68, 51, 34) */
+    padding: 10px;
+    display: block; /* クリック範囲広げる（領域の重複がなくなる？？） */
+}
+.sub-menu a:hover {
+    color: rgb(0, 187, 221);    /* #0bd rgb(0, 187, 221) */
+}
+aside p {
+    padding: 12px 10px;
+}
+
 
 /* フッター
 --------------------------------------- */
