@@ -44,6 +44,13 @@ img {
     text-align: center;
 }
 
+/* menuページ
+--------------------------------------- */
+#menu {
+    background-image: url(../images/menu-bg.jpg);
+    min-height: 100vh;
+}
+
 /* 共通部分
 --------------------------------------- */
 /* コンテンツ最大表示幅 */
@@ -199,6 +206,21 @@ aside p {
     order: 1;
 }
 
+/* MENU
+--------------------------------------- */
+.menu-content {
+    max-width: 560px;
+    margin-top: 10%;
+}
+.menu-content .page-title {
+    text-align: center;
+}
+.menu-content p {
+    font-size: 1.125rem;
+    margin: 10px 0 0;
+}
+
+
 
 /* フッター
 --------------------------------------- */
@@ -276,6 +298,12 @@ footer p {
         font-size: 0.875rem;
         margin-top: 10px;
         margin-left: 80px;
+    }
+
+    /* MENU
+    --------------------------------------- */
+    .menu-content {
+        margin-top: 20%;
     }
 
     /* サイドバー */
