@@ -209,12 +209,13 @@ footer p {
 /* モバイル版
 --------------------------------------- */
 @media (max-width: 600px) {
-    /* 見出し */
-    .page-title {
-        font-size: 2.5rem;
-    }
 
-    /* HEADER */
+    /* HEADER
+    --------------------------------------- */
+    .page-header {
+        flex-direction: column;
+        align-items: center;
+    }
     .main-nav {
         font-size: 1rem;
         margin-top: 10px;
@@ -223,8 +224,13 @@ footer p {
         margin: 0 20px;
     }
 
-    /* HOME */
+    /* HOME
+    --------------------------------------- */
     .home-content {
         margin-top: 20%;
+    }
+    /* 見出し */
+    .page-title {
+        font-size: 2.5rem;
     }
 }
