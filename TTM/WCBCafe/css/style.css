@@ -233,4 +233,14 @@ footer p {
     .page-title {
         font-size: 2.5rem;
     }
+
+    /* NEWS
+    --------------------------------------- */
+    .news-contents {
+        flex-direction: column;
+    }
+    article ,
+    aside {
+        width: 100%;
+    }
 }
