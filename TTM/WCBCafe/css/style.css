@@ -230,6 +230,11 @@ aside p {
     grid-column: 1 / 3;
     grid-row: 1 / 3;
 }
+.big-box img {
+    height: 94%;
+    width: 100%;
+    object-fit: cover;
+}
 
 /* フッター
 --------------------------------------- */
