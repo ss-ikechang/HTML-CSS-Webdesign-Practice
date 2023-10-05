@@ -313,15 +313,21 @@ footer p {
         margin-top: 10px;
         margin-left: 80px;
     }
+    /* サイドバー */
+    aside {
+        margin-top: 60px;
+    }
 
     /* MENU
     --------------------------------------- */
     .menu-content {
         margin-top: 20%;
     }
-
-    /* サイドバー */
-    aside {
-        margin-top: 60px;
+    .big-box {
+        grid-column: auto;
+        grid-row: auto;
+    }
+    .big-box img {
+        height: auto;
     }
 }
